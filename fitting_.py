@@ -32,9 +32,9 @@ if __name__ == '__main__':
 
     }
 
-    knnGSCV = GridSearchCV(KNeighborsClassifier(),params,n_jobs=-1,scoring='f1')
-
-    print(knnGSCV.fit(xtrain,ytrain))
+    # knnGSCV = GridSearchCV(KNeighborsClassifier(),params,n_jobs=-1,scoring='f1')
+    #
+    # print(knnGSCV.fit(xtrain,ytrain))
     # print(KNeighborsClassifier(n_neighbors=4,weights='distance',algorithm='brute').fit(xtrain,ytrain).score(xtest,ytest)) # this is the best
 
 
